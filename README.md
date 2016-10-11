@@ -1,8 +1,13 @@
 # tun2socks-demo-app
 
-Run instructions:
+Pre-requisites:
+* cordova
+* Android Studio (Android SDK, gradle). 
 
-* Remove tun2socks plugin (if already installed):
+Run instructions:
+* Add Android platform:
+`cordova platform add android`
+* Remove tun2socks plugin (if already installed, to rebuild):
 `cordova plugin rm cordova-plugin-tun2socks`
 * Add tun2socks plugin
 `cordova plugin add <path_or_url_to_tun2socks_plugin>`
@@ -10,5 +15,4 @@ Run instructions:
 `cordova build`
 * Install:
 `adb install -r <path_to_apk>`
-
 
