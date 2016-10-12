@@ -1,0 +1,22 @@
+{
+  "name": "tun2socks-demo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "adb-install": "$ANDROID_HOME/platform-tools/adb install -r platforms/android/build/outputs/apk/android-debug.apk",
+    "cordova": "cordova",
+    "build": "cordova build",
+    "install": "cordova platform add android && cordova plugin add https://github.com/uProxy/cordova-plugin-tun2socks.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uProxy/tun2socks-demo-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uProxy/tun2socks-demo-app/issues"
+  },
+  "homepage": "https://github.com/uProxy/tun2socks-demo-app#readme",
+  "devDependencies": {
+    "cordova": "^6.3.1"
+  }
+}
